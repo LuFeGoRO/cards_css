@@ -1,0 +1,29 @@
+body{
+    
+    margin: 0;
+    padding: 20px;
+    background-image: url(imagenes/Beerus_DBS_Broly_Artwork.webp);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+h1{ text-align: center; margin-bottom: 20px;}
+.galeria{
+    display: grid;  
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 15px;
+      
+}
+.a h1{ margin-top: 8px; font-weight: bold; font-size: 14px;}
+
+.a img{ width: 100%;height: auto; max-height: 150px; object-fit: contain;}
+
+.a{
+    color: rgb(100, 47, 47);
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+    
+}
