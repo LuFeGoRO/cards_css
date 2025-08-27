@@ -1,29 +1,94 @@
+.macondo-swash-caps-regular {
+  font-family: "Macondo Swash Caps", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
 body{
     
     margin: 0;
     padding: 20px;
-    background-image: url(imagenes/Beerus_DBS_Broly_Artwork.webp);
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
+    background-image: url(imagenes/fondo.jpg);
+    background-position: 100%;
+    background-attachment:fixed;
     background-size: 300px 300px;
 }
-h1{ text-align: center; margin-bottom: 20px;}
+h1{ margin-left: 0em; margin-bottom: 1px;}
 .galeria{
     display: grid;  
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     gap: 15px;
+    padding: 2vh;
+    width:100vh ;
+    margin-left: 25vw;
       
 }
-.a h1{ margin-top: 8px; font-weight: bold; font-size: 14px;}
+.a h1{ margin-top: 8px; font-weight: bold; font-size: 14px; font-family: "Macondo Swash Caps", cursive; font-weight: 400; font-style: normal;}
+.e h1{ margin-top: 8px; font-weight: bold; font-size: 14px; font-style: italic;}
+.i h1{ margin-top: 8px; font-weight: bold; font-size: 14px; text-transform:lowercase; letter-spacing: 3px; text-shadow:#f3f3f5;}
+.o h1{ margin-top: 8px; font-weight: bold; font-size: 14px; font-family: "Macondo Swash Caps", cursive; font-weight: 400; font-style: normal;}
+.u h1{ margin-top: 8px; font-weight: bold; font-size: 14px; font-family: "Macondo Swash Caps", cursive; font-weight: 400; font-style: normal;} 
 
-.a img{ width: 100%;height: auto; max-height: 150px; object-fit: contain;}
-
+.a img{ width: 100%;height: auto; max-height: 150px; object-fit: contain; }
+.e img{ width: 100%;height: auto; max-height: 150px; object-fit: contain; }
+.i img{ width: 100%;height: auto; max-height: 150px; object-fit: contain; }
+.o img{ width: 100%;height: auto; max-height: 150px; object-fit: contain; }
+.u img{ width: 100%;height: auto; max-height: 150px; object-fit: contain; }
 .a{
-    color: rgb(100, 47, 47);
+    color: rgb(172, 36, 36);
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     text-align: center;
     padding: 10px;
+    overflow: hidden; 
+
+}
+.e{
+    color: rgb(9, 159, 170);
+    background-color: rgba(129, 23, 23, 0.2);
+     border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+}
+.i{
+    color: rgb(94, 87, 199);
+    background-color: rgba(0, 0, 0, 0.7);
+     border-radius: 10px;
+    text-align: center;
+    padding: 10px;
     overflow: hidden;
     
+}
+.o{
+    color: rgb(54, 1, 26);
+    background-color: rgba(0, 0, 0, 0.3);
+     border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+    background: radial-gradient(ellipse at center,#3b4103, #0b3c92 );
+}
+.u{
+     border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+    color: rgb(38, 202, 194);
+    background-color: rgba(0, 0, 0, 0.5);
+    background: linear-gradient(135deg, #1d0338, #0445b6);
+   
+}
+header{
+    padding: 20px;
+
+}
+header img{
+    max-width: 1000px;
+    width: 23em;
+    height: auto;
+    display: block;
+    margin: 0;
+    margin-left: 30em;
 }
